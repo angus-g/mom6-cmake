@@ -23,3 +23,5 @@ add_subdirectory(atmos_null)
 add_subdirectory(land_null)
 
 add_subdirectory(coupler)
+
+install(TARGETS MOM6-SIS2)
