@@ -4,7 +4,7 @@ project(MOM6 Fortran)
 
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
-find_package(fms COMPONENTS R8 REQUIRED)
+find_package(fms REQUIRED COMPONENTS R8)
 
 option(SYMMETRIC "Use symmetric memory" ON)
 if(SYMMETRIC)
